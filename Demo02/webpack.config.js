@@ -6,7 +6,7 @@ module.exports = {
     bundle2: './main2.js',
   },
   output: {
-    filename: '[name].js',
+    filename: '[contenthash].js',
     path: path.resolve(__dirname, './'),
   },
 }
